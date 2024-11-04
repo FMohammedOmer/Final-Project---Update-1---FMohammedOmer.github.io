@@ -1,0 +1,146 @@
+:root{
+    --brown:#A17D61;
+    }
+   
+   *{
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        outline: none; border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+        color: black;
+        box-shadow: 0 1.6px 1.6px  #3b3232;
+    }
+
+body{
+    font-size: 90%;
+    scroll-behavior:smooth;
+    scroll-padding-top: 96px;
+    overflow-x: hidden;
+    background-color: rgba(87, 65, 61, 0.744);
+}
+
+section{
+    padding: 32px 9%;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #c6ae98;
+    padding: 3px 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0  8px 16px rgba(37, 16, 16, 0.1);
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(Bismillah.ttf);
+}
+
+.logo{
+    font-family: myFont;
+    font-size: 40px;
+    color:#ffffff;
+    font-weight:bold;
+}
+.navbar a{
+    font-size: 16px;
+    padding:0 24px;
+    color:#190303c9
+}
+
+.home .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.home .container .div1{
+    flex: 1 1 480px;
+    box-shadow: 0 8px 24px  #000000;
+    border: 8px;
+    padding: 48px 32px;
+    position: relative;
+}
+.heading{
+    text-align: center;
+    font-family: myFont;
+    font-size: 112px;
+    color: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 48px 0;
+    background:#946d50; 
+}
+
+.home .container.div1 .image{
+    position:fixed;
+    text-align: center;
+}
+
+.home .container .div1 .content{
+    text-align: center;
+}
+
+.home .container .div1 .content h3{
+    font-size: 28.8px;
+    color: #000000;
+}
+
+.home .container .div1 .content p{
+    color:#000000
+}
+
+footer { 
+    font-style: italic; 
+    font-size: 32px;
+    text-align: center; 
+    padding-top: 50px;
+    background: #A17D61;
+    }
+
+.container{
+    width: 1140px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 10%;
+}
+
+h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content p{
+    width: 10px;
+    margin:100px;
+    padding: 100px; 
+}
+
+.footer-content ul{
+    text-align:left;
+}
+.list{
+    padding: 0;
+}
+
+.list li{
+    width:auto;
+    text-align:left;
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+
+.footer-container svg {
+    width: 50px; 
+    height: 50px; 
+}
